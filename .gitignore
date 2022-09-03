@@ -1,5 +1,6 @@
 # my local files to ignore
 practice.js
+ufo_starterCode.js
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

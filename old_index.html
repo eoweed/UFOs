@@ -50,34 +50,17 @@
                     <ul class="bg-dark">
                         <li class="bg-dark">
                             <!-- Add input box to create filters -->
+                            <!-- Connect this file to the "#datetime" ID -->
                             <label for="date">Enter Date</label>
                             <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
-
                         <li class="bg-dark">
-                            <!-- Add input box to create filters -->
-                            <label for="city">Enter City</label>
-                            <input type="text" placeholder="roswell" id="city" />
+                            <!-- Add button to click to apply filters -->
+                            <!-- Connect this file to the "#filter-btn" ID -->
+                            <button id="filter-btn" type="button" class="btn btn-dark">
+                                Filter Table
+                            </button>
                         </li>
-
-                        <li class="bg-dark">
-                            <!-- Add input box to create filters -->
-                            <label for="state">Enter State</label>
-                            <input type="text" placeholder="ca" id="state" />
-                        </li>
-
-                        <li class="bg-dark">
-                            <!-- Add input box to create filters -->
-                            <label for="country">Enter Country</label>
-                            <input type="text" placeholder="us" id="country" />
-                        </li>
-
-                        <li class="bg-dark">
-                            <!-- Add input box to create filters -->
-                            <label for="shape">Enter Shape</label>
-                            <input type="text" placeholder="circle" id="shape" />
-                        </li>
-
                     </ul>
                 </form>
             </div>
@@ -108,6 +91,6 @@
     <!-- 1) D3.js (CDN), 2) data.js, 3) app.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="static/js/data.js"></script>
-    <script src="static/js/app.js"></script>
+    <script src="static/js/old_app.js"></script>
 </body>
 </html>
