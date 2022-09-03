@@ -15,14 +15,15 @@ Create HTML webpage with a dynamic table to show data on UFO sightings
 ##### For example, if a user wanted to view all UFO sightings in Arizona:
 ##### -	type “ar” into the “Enter State” input box.
 
-![IMAGE OF ar FILTER]
+![IMAGE OF ar FILTER](https://github.com/eoweed/UFOs/blob/main/WebPageImages/Arizona.png?raw=true)
+
 
 ##### If they wanted to view all UFO sightings in California on January 1st, 2010, in the shape of a triangle:
 ##### -	type “1/1/2010” into the “Enter Date” input box.
 ##### -	type “ca” into the “Enter State” input box.
 ##### -	type “triangle” into the “Enter Shape” input box.
 
-![IMAGE OF ca, 1/1/2010, triangle FILTER]
+![IMAGE OF ca, 1/1/2010, triangle FILTER](https://github.com/eoweed/UFOs/blob/main/WebPageImages/California_1-1-2010_triangle.png?raw=true)
 
 ##### To clear the filters, the user must refresh the page or delete the items from the input box.
 
